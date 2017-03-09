@@ -231,6 +231,12 @@ The following settings are available for the client:
                     )
         )
 
+.. describe:: serializer_max_depth
+
+    Defaults to 3.
+
+    This value is used for the serializer to limit the depth when serializing arrays.
+
 .. _sentry-php-request-context:
 
 Providing Request Context
